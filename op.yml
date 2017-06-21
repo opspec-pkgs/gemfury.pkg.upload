@@ -1,0 +1,18 @@
+name: github.com/opspec-pkgs/gemfury.pkg.upload
+description: uploads a package to gemfury
+inputs:
+  secretToken:
+    string:
+      constraints: { minLength: 1 }
+      description: gemfury secret token
+      isSecret: true
+  package:
+    file:
+      description: the package to upload
+run:
+  container:
+    image: { ref: 'opspecpkgs/gemfury.pkg.upload:1.0.0' }
+    cmd: [ /cmd.sh ]
+    envVars:
+      secretToken:
+    files: { /cmd.sh, /package: $(package) }
