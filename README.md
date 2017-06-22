@@ -25,5 +25,5 @@ op:
   inputs: 
     secretToken:
     username:
-    pkg:
+    package:
 ```
