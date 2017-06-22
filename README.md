@@ -23,7 +23,7 @@ opctl run github.com/opspec-pkgs/gemfury.pkg.upload#VERSION
 op:
   pkg: { ref: github.com/opspec-pkgs/gemfury.pkg.upload#VERSION }
   inputs: 
-    secretToken:
+    apiToken:
     username:
     package:
 ```
