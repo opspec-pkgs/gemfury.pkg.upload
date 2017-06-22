@@ -19,4 +19,5 @@ run:
     cmd: [ /cmd.sh ]
     envVars:
       secretToken:
+      username:
     files: { /cmd.sh, /package: $(package) }
