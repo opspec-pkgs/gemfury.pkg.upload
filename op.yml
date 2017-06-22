@@ -6,6 +6,10 @@ inputs:
       constraints: { minLength: 1 }
       description: gemfury secret token
       isSecret: true
+  username:
+    string:
+      constraints: { minLength: 1 }
+      description: gemfury username
   package:
     file:
       description: the package to upload
