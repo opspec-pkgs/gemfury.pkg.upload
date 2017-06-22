@@ -2,4 +2,4 @@
 
 set -e
 
-curl -F "package=@/package" "https://push.fury.io/${secretToken}/${username}"
+curl -F "package=@/package" "https://push.fury.io/${apiToken}/${username}"
