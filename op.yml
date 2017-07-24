@@ -13,6 +13,7 @@ inputs:
   package:
     file:
       description: the package to upload
+version: 1.0.0
 run:
   container:
     image: { ref: 'opspecpkgs/gemfury.pkg.upload:1.0.0' }
