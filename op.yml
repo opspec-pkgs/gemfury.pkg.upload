@@ -21,4 +21,6 @@ run:
     envVars:
       apiToken:
       username:
-    files: { /cmd.sh, /package: package }
+    files:
+      /cmd.sh:
+      /package: $(package)
