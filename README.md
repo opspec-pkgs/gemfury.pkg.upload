@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/opspec-pkgs/gemfury.pkg.upload.svg?branch=master)](https://travis-ci.org/opspec-pkgs/gemfury.pkg.upload)
 
+<img src="icon.svg" alt="icon" height="100px">
+
 # Problem statement
 
 uploads a package to gemfury
